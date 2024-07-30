@@ -7,11 +7,6 @@ puckJsScript.type = 'text/javascript';
 puckJsScript.src = 'https://www.puck-js.com/puck.js';
 document.body.appendChild(puckJsScript);
 
-var ahrsScript = document.createElement('script');
-ahrsScript.type = 'text/javascript';
-ahrsScript.src = 'puck/www-ahrs.js';
-document.body.appendChild(ahrsScript);
-
 var arcadeInputScript = document.createElement('script');
 arcadeInputScript.type = 'text/javascript';
 arcadeInputScript.src = 'puck/arcade-input.js';
